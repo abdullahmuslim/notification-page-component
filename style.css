@@ -1,0 +1,46 @@
+body {
+  opacity: .7;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-image: url(design/mobile-design.jpg);
+}
+main {
+  display: flex;
+  flex-direction: column;
+}
+main > div {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+}
+main > div:first-child {
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-size: 16px;
+  font-weight: 800;
+}
+h1 span {
+  padding: 3px 9px;
+  border-radius: 6px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(219, 85%, 26%);
+}
+.primary {
+  color: hsl(224, 21%, 14%);
+}
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-display: swap;
+  src: url(assets/fonts/static/PlusJakartaSans-VariableFont_wght.ttf);
+}
+.attribution {
+  display: none;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
