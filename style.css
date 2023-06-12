@@ -1,15 +1,18 @@
 body {
   font-family: 'Plus Jakarta Sans', sans-serif;
-  /* opacity: .8;
-  background-image: url(design/mobile-design.jpg); */
-  width: 375px;
+  /* opacity: .7;
+  background-image: url(design/mobile-design.jpg);
+  width: 375px;*/
 }
-/* * {
+* {
   padding: 0;
   margin: 0;
-} */
+}
 h1 {
   font-size: 20px;
+}
+main > div:first-child span {
+  text-align: right;
 }
 p {
   font-size: 16px;
@@ -47,14 +50,14 @@ h1 span {
 div > img {
   width: 48px;
 }
-
+*/
 .primary {
   color: hsl(224, 21%, 14%);
   font-weight: 800;
 }
 .unseen {
   background-color: hsl(205, 33%, 90%);
-} */
+}
 
 @font-face {
   font-family: 'Plus Jakarta Sans';
