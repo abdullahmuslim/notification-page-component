@@ -1,40 +1,65 @@
 body {
-  opacity: .7;
   font-family: 'Plus Jakarta Sans', sans-serif;
-  background-image: url(design/mobile-design.jpg);
+  /* opacity: .8;
+  background-image: url(design/mobile-design.jpg); */
+  width: 375px;
 }
-main {
+/* * {
+  padding: 0;
+  margin: 0;
+} */
+h1 {
+  font-size: 20px;
+}
+p {
+  font-size: 16px;
+}
+small {
+  font-size: 14px;
+}
+/* main {
   display: flex;
   flex-direction: column;
+  padding: 24px 16px;
 }
 main > div {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   width: 100%;
+  padding: 6px;
+  margin-bottom: 9px;
 }
 main > div:first-child {
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 26px;
+  padding: 0;
 }
 
-h1 {
-  font-size: 16px;
-  font-weight: 800;
-}
 h1 span {
-  padding: 3px 9px;
+  margin-left: 6px;
+  padding: 1px 10px;
   border-radius: 6px;
   color: hsl(0, 0%, 100%);
   background-color: hsl(219, 85%, 26%);
 }
+div > img {
+  width: 48px;
+}
+
 .primary {
   color: hsl(224, 21%, 14%);
+  font-weight: 800;
 }
+.unseen {
+  background-color: hsl(205, 33%, 90%);
+} */
+
 @font-face {
   font-family: 'Plus Jakarta Sans';
   font-display: swap;
-  src: url(assets/fonts/static/PlusJakartaSans-VariableFont_wght.ttf);
+  src: url(/assets/fonts/PlusJakartaSans-VariableFont_wght.ttf);
 }
 .attribution {
   display: none;
