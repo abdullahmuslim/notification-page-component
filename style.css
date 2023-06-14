@@ -1,8 +1,8 @@
 body {
   font-family: 'Plus Jakarta Sans', sans-serif;
   /* opacity: .7;
-  background-image: url(design/mobile-design.jpg);
-  width: 375px;*/
+  background-image: url(design/mobile-design.jpg); */
+  width: 375px;
 }
 * {
   padding: 0;
@@ -11,8 +11,15 @@ body {
 h1 {
   font-size: 20px;
 }
+h1 span {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(219, 85%, 26%);
+}
 main > div:first-child span {
   text-align: right;
+}
+div > img {
+  width: 32px;
 }
 p {
   font-size: 16px;
@@ -40,16 +47,6 @@ main > div:first-child {
   padding: 0;
 }
 
-h1 span {
-  margin-left: 6px;
-  padding: 1px 10px;
-  border-radius: 6px;
-  color: hsl(0, 0%, 100%);
-  background-color: hsl(219, 85%, 26%);
-}
-div > img {
-  width: 48px;
-}
 */
 .primary {
   color: hsl(224, 21%, 14%);
