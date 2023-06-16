@@ -1,6 +1,6 @@
 # Frontend Mentor - Notifications page solution
 
-This is a solution to the [Notifications page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/notifications-page-DqK5QAmKbC). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Notifications page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/notifications-page-DqK5QAmKbC). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -11,8 +11,6 @@ This is a solution to the [Notifications page challenge on Frontend Mentor](http
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
@@ -36,6 +34,8 @@ Users should be able to:
 - Live Site URL: [live site](https://abdullahmuslim.github.com/notification-page-component)
 
 ## My process
+First come proper planning of how the layout should go.
+The designs are very similar since the main content's width only need to keep increasing until it gets to a point where it just remains centered as the viewport's width increases.
 
 ### Built with
 
@@ -44,14 +44,12 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- [Bootstrap 5.0.2](https://getbootstrap.com/) - For styles
 
 ### What I learned
-
-### Continued development
-
+In the process of developing, I got expose to more bootstrap utility classes.
+Also, I begin to feel the spirit of good designing surging in me ^_^
+Added sizing and hover effect with css, relying on bootstrap for the layout.
 ## Author
 
 - Website - [Abdullah Muslim](https://abdullahmuslim.github.io/portfolio)
